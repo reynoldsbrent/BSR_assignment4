@@ -1,0 +1,121 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the navigation links */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #646060;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    color: #333;
+}
+
+/* Image styles */
+/* Image styles */
+img.float-left {
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Set the width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Content styles */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center content */
+}
+
+.content p {
+    margin-bottom: 15px;
+    margin-left: 100px;
+    line-height: 1.8;
+    text-align: center; /* Center paragraph text */
+}
+
+.content hr {
+    margin: 20px auto; /* Center horizontal rule */
+    border: 0;
+    border-top: 1px solid #ddd;
+    max-width: 50%; /* Limit width */
+}
+
+.content ul {
+    list-style-type: disc;
+    margin-left: auto; /* Center unordered list */
+    margin-right: auto;
+    text-align: left; /* Reset text alignment for list items */
+}
+
+.content ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Links styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
