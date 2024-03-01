@@ -55,17 +55,19 @@ h1 {
 img.float-left {
     float: left;
     margin-right: 20px;
+    margin-left: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 250px; /* Set the width */
+    width: 275px; /* Set the width */
     height: auto; /* Maintain aspect ratio */
 }
 
 /* Content styles */
 .content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    margin-right: 20px auto;
+    padding: 50px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -75,6 +77,7 @@ img.float-left {
 .content p {
     margin-bottom: 15px;
     margin-left: 100px;
+    margin-right: 100px;
     line-height: 1.8;
     text-align: center; /* Center paragraph text */
 }
@@ -89,12 +92,16 @@ img.float-left {
 .content ul {
     list-style-type: disc;
     margin-left: auto; /* Center unordered list */
-    margin-right: auto;
+    margin-right: 25px;
     text-align: left; /* Reset text alignment for list items */
 }
 
 .content ul li {
     margin-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 0 20px;
+    text-align: left; /* Reset text alignment for list items */
 }
 
 /* Footer styles */
@@ -119,3 +126,7 @@ a:hover {
     text-decoration: underline;
 }
 
+.container{
+    margin-right: 10px;
+    margin-left: 10px;
+}
