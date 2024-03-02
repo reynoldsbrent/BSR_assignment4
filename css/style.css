@@ -12,6 +12,9 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
+em{
+    font-style: italic;
+}
 
 /* Navigation bar styles */
 nav {
