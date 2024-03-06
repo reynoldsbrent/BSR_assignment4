@@ -61,7 +61,7 @@ img.float-left {
     margin-left: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 275px; /* Set the width */
+    width: 300px; /* Set the width */
     height: auto; /* Maintain aspect ratio */
 }
 
